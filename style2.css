@@ -1,0 +1,151 @@
+.navbar {
+    width: 100%;
+    background-color:#E5D3D3;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+
+.navbar a {
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+
+.navbar a.active {
+    background-color:#E5D3D3;
+    color:black;
+}
+
+
+.navbar a:hover {
+    background-color:#E5D3D3;
+    color: black;
+}
+.body{
+    background-color: #E5D3D3;
+}
+
+
+
+
+
+.container {
+    position: relative;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+  .side-img2{
+    margin-top: 15px;
+    margin-left: 25px;
+    padding-left: 25px;
+    width: 500px;
+    height: 500px;
+    padding-top: 50px;
+    float: left;
+}
+.side-img2 img{
+    padding-top: 40px;
+    width: 500px;
+    height: 500px;
+    padding-bottom:40px ;
+    object-fit: cover;
+}
+.search-container{
+    width: 200px;
+    height: 150px;
+    position: fixed;
+    top: 2px;
+    right: 2px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+    display: block;
+}
+.search button{
+    padding-top: 20px;
+    padding-right: 40px;
+    background-color: #E5D3D3;
+    position:absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.search-container button:hover {
+    background:black;
+}
+.search-icon {
+    font-size: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.container {
+    margin-top: 100px;
+    height: 450px;
+    width: 370px;
+    background-color:#E5D3D3;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 150px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #E5D3D3;
+}
+button {
+    width: 120px;
+    height: 40px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:black;
+}
+.login-btn {
+    background-color: #007bff;
+    margin-bottom: 10px;
+}
+.signed{
+    display: flex;
+    justify-content: space-between;
+    height: 16px;
+    justify-content: right;
+}
+a{
+    text-decoration: none;
+}
